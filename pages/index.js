@@ -21,7 +21,7 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <a href="/download" className={styles.card}>
+          <a href="https://sourceforge.net/projects/norm-os/files/" className={styles.card}>
             <h3>Download &rarr;</h3>
             <p>Get the latest version of Norm OS</p>
           </a>

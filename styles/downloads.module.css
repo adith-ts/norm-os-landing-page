@@ -1,0 +1,37 @@
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #2e3440; /* Background color */
+  color: #d8dee9; /* Text color */
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  color: #88c0d0; /* Title color */
+}
+
+.downloadList {
+  list-style: none;
+  padding: 0;
+}
+
+.downloadItem {
+  margin-bottom: 1rem;
+}
+
+.downloadLink {
+  color: #81a1c1; /* Link color */
+  text-decoration: none;
+}
+
+.downloadLink:hover {
+  text-decoration: underline;
+}
+
